@@ -1,3 +1,4 @@
+let USATA = 0
 basic.forever(function () {
     basic.showNumber(3)
     basic.showNumber(2)
@@ -37,4 +38,9 @@ basic.forever(function () {
         . . . . .
         # # . . .
         `)
+    USATA = USATA
+    led.plotBarGraph(
+    0,
+    1
+    )
 })
